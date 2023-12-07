@@ -1,4 +1,4 @@
-from openai import OpenAIAPI
+from openai import OpenAI
 import requests
 from ics import Calendar
 
