@@ -20,6 +20,9 @@ def webcal_to_txt(webcal_link, ics_filename, txt_filename):
    download_ics(webcal_link, ics_filename)
    convert_ics_to_txt(ics_filename, txt_filename)
 
+#Call function
+webcal_to_text()
+
 # Replace 'YOUR_API_KEY' with your actual OpenAI API key
 openai.api_key = 'YOUR_API_KEY'
 
