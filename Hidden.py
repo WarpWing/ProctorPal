@@ -1,0 +1,2 @@
+webcal_link = "webcal://proctor.myschoolapp.com/podium/feed/iCal.aspx?z=klMxFexw%2fVLtbaU8rUeP16fqTElzHrHt8CZAURVxWEtNLGxMCSBIWIrS4uctiCpCZCK2B%2fWsqHg%2bczaU%2f6MAFg%3d%3d"
+YOUR_API_KEY = "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"
