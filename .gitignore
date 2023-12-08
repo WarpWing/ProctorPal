@@ -10,7 +10,7 @@ __pycache__/
 
 
 # Distribution / packaging
-Credentials.py
+Hidden.py
 .DS_Store
 .Python
 build/
