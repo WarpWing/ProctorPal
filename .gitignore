@@ -10,7 +10,8 @@ __pycache__/
 
 
 # Distribution / packaging
-Credentials.py/
+Credentials.py
+.DS_Store
 .Python
 build/
 develop-eggs/
