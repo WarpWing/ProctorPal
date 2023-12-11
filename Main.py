@@ -1,5 +1,5 @@
 import os
-
+from qdrant_client import QdrantClient
 import openai
 import requests
 from ics import Calendar
@@ -67,6 +67,9 @@ clear_calendar_txt_file('Calendar.txt')
 #Call function to convert the webcal into a ics file, and then into a txt file
 webcal_to_txt(http_link, 'Calendar.ics', 'Calendar.txt')'''
 
+
+
+qdrant = QdrantClient(":memory:") # Create in-memory Qdrant instance, for testing, CI/CD
 
 
 
