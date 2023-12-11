@@ -1,5 +1,5 @@
 import os
-from openai import OpenAI
+
 import openai
 import requests
 from ics import Calendar
@@ -65,52 +65,26 @@ clear_calendar_ics_file('Calendar.ics')
 clear_calendar_txt_file('Calendar.txt')
 
 #Call function to convert the webcal into a ics file, and then into a txt file
-webcal_to_txt(http_link, 'Calendar.ics', 'Calendar.txt')
+webcal_to_txt(http_link, 'Calendar.ics', 'Calendar.txt')'''
+
+
 
 
 openai.api_key = YOUR_API_KEY
 
-# Function to read content from a text file
-def read_file(file_path):
-   with open(file_path, "r") as file:
-       return file.read()
-
-# Specify the path to the text file
-text_file_path = "your_text_file.txt"
-
-# Read the content of the text file
-conversation_history = read_file('backgroundInformation.txt')'''
-
-client = OpenAI(api_key="YOUR_API_KEY")
-openai.api_key = "YOUR_API_KEY"
-
-def chat_with_chatgpt(prompt, model="gpt-3.5-turbo"):
-    response = openai.Completion.create(
-        engine=model,
-        prompt=prompt,
-        max_tokens=100,
-        n=1,
-        stop=None,
-        temperature=0.5,
-    )
+messages = [ {"role": "system", "content": "You are a intelligent assistant."} ]
 
 
-    message = response.choices[0].text.strip()
-    return message
-   
-
-chat_with_chatgpt("hi")
-
-'''client = OpenAI(
-    openai.api_key == 'your-api-key'
-)
-
-chat_completion = client.chat.completions.create(
-    messages=[
-        {
-            "role": "user",
-            "content": "Say this is a test",
-        }
-    ],
-    model="gpt-3.5-turbo",
-)'''
+while True: 
+    message = input("User : ") 
+    if message: 
+        messages.append( 
+            {"role": "user", "content": message},
+        ) 
+        chat = openai.ChatCompletion.create( 
+            model="gpt-3.5-turbo", messages=messages 
+        ) 
+      
+    reply = chat.choices[0].message.content 
+    print(f"ChatGPT: {reply}") 
+    messages.append({"role": "assistant", "content": reply})
