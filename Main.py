@@ -1,13 +1,12 @@
+import os
 import openai
+from openai import OpenAI
 import requests
 from ics import Calendar
 from Hidden import webcal_link
 from Hidden import YOUR_API_KEY
-import asyncio
-from pyppeteer import launch
-from pyppeteer_stealth import stealth
 
-# Convert the webcal:// URL to an http:// URL
+'''# Convert the webcal:// URL to an http:// URL
 http_link = webcal_link.replace('webcal://', 'http://')
 
 try:
@@ -22,9 +21,12 @@ else:
 
 #This defines the function to download the the webcal to an ics file
 def download_ics(webcal_link, ics_filename):
-   response = requests.get(webcal_link)
-   with open(ics_filename, 'wb') as file:
-       file.write(response.content)
+ headers = {
+     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+ }
+ response = requests.get(webcal_link, headers=headers)
+ with open(ics_filename, 'wb') as file:
+     file.write(response.content)
 
 #This defines the funtion to convert the Calendar ics file to a txt file
 def convert_ics_to_txt(ics_filename, txt_filename):
@@ -77,16 +79,36 @@ def read_file(file_path):
 text_file_path = "your_text_file.txt"
 
 # Read the content of the text file
-conversation_history = read_file(text_file_path)
+conversation_history = read_file('backgroundInformation.txt')'''
 
-# Create a chat completion using the OpenAI GPT-3.5-turbo model
-response = openai.ChatCompletion.create(
-   model="gpt-3.5-turbo", # Use the appropriate model
-   messages=[
-       {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-       {"role": "user", "content": conversation_history},
-   ]
+
+openai.api_key = "webcal_link"
+
+def chat_with_chatgpt(prompt):
+    response = openai.Completion.create(
+        engine="gpt-3.5-turbo",
+        prompt=prompt,
+        max_tokens=100,
+        n=1,
+        stop=None,
+        temperature=0.5,
+    )
+    message = response.choices[0].text.strip()
+    return message
+   
+
+chat_with_chatgpt("hi")
+
+'''client = OpenAI(
+    openai.api_key == 'your-api-key'
 )
 
-# Print the generated completion
-print(response['choices'][0]['message']['content'])
+chat_completion = client.chat.completions.create(
+    messages=[
+        {
+            "role": "user",
+            "content": "Say this is a test",
+        }
+    ],
+    model="gpt-3.5-turbo",
+)'''
