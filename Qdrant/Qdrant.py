@@ -1,16 +1,12 @@
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
-from Hidden import Qdrant_API_KEY
-
+from Vectors.Hidden import Qdrant_API_KEY
+import numpy as np
+import json
 
 qdrant_client = QdrantClient(
     "https://29b7abb9-dd18-450c-8e2b-706de38ba80b.us-east4-0.gcp.cloud.qdrant.io:6333",
     api_key=Qdrant_API_KEY,
-)
-
-qdrant_client.recreate_collection(
-    collection_name='startups', 
-    vectors_config=VectorParams(size=384, distance=Distance.COSINE),
 )
 
 fd = open('./startups.json')

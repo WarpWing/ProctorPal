@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(api_key=YOUR_API_KEY)
-from Hidden import YOUR_API_KEY
+from Vectors.Hidden import YOUR_API_KEY
 
 
 

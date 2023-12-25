@@ -1,6 +1,6 @@
 import requests
 from ics import Calendar
-from Hidden import webcal_link
+from Vectors.Hidden import webcal_link
 
 
 # Convert the webcal:// URL to an http:// URL
