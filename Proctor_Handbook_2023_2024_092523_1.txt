@@ -1,21 +1,5 @@
-﻿
-
-
-
-
-
-
-
-
-
-
-
-
 STUDENT HANDBOOK
 2023-2024
-
-
-
 
 Table of Contents
 Welcome	1
@@ -29,15 +13,6 @@ Main Office	(603) 735-6000
 Fax	(603) 735-6300
 Office Hours:
 Monday-Friday 8:00 AM - 4:00 PM
-
-
-
-
-
-
-
-
-
 
 Printed on 100% Recycled Fiber, containing at least 30% post-consumer content.
 Please understand that no set of rules or guidelines can cover every conceivable situation that might arise at school. The rules, policies and procedures set forth in this Student Handbook are intended to apply under most circumstances. However, from time to time, there may be situations that require immediate or non- standard responses. Nothing in this handbook should be construed as a limitation on the authority of Proctor to deviate from the rules and procedures set forth herein, or to deal with individual circumstances as they arise in the manner deemed most appropriate by the school taking into consideration the best interests of the school, its students, faculty, employees, or overall school community. The policies may also be revised or updated periodically, even during the school year. You will be advised of any changes as they are made either electronically (email) or by mail. Any student or parent with a question about any handbook policy or statement should feel free to speak with the Dean of Student Engagement and Accountability or the Assistant Head of School.
@@ -1580,6 +1555,10 @@ George “Geordie” Sousa, III ’08
 Eastern Ski Ski Coach | Appointed ’22
 Colby-Sawyer College, B.S.
 
+Linden "Objectively Apple Is Better" Morgan '26
+Apple Nerd and Effective Accelerationist at not showering (he stinks)
+Hustlers University, B.S.
+
 Becky Walsh, P ’17, ’20
 Assistant to Athletic Director | Appointed ’02
 University of Southern Maine, B.S., Simmons College, M.S.
@@ -1703,6 +1682,11 @@ Assistant to the Dean of Teaching and Learning | Appointed ’22
 Wendy McLeod, P ’05, ’07
 Learning Skills Office Manager, Nonstandard Testing Coordinator Appointed ’00
 SNHU, B.S.
+
+Ty "WarpWing" Chermsirivatana P '23
+Current Director of DevOps at SkyCrypt | Appointed '23
+Law and Policy Major at Dickinson College, B.A. 
+Ty's Objectively Famous Quote: "chipi chipi chapa chapa dubi dubi daba daba boom boom"
 
 Health Center
 Sue Norris, RN, P ’23, ‘27
@@ -1828,9 +1812,14 @@ Assistant Facilities Manager | Appointed ’17
 
 Clayton Temple
 Facilities Technician | Appointed ’18
+
 Security Department Starr Middleton, P ’21, ’25
 Director of Security | Appointed ’10
 Plymouth State College, B.S.
+
+Devon Towne (he/him) P'21-P'25
+Male Feminist and Niche Kayaker (Semi Pro)
+Team Captain of Proctor Academy's Robotics 
 
 Kathryn Bennett
 Dining Hall Coordinator/Security | Appointed ’01
@@ -2249,7 +2238,6 @@ Winter Term Classes Begin
 18
 Spring Term Exam Review Blocks
 
-
 20-23
 Spring Term Final Week
 
@@ -2258,44 +2246,18 @@ December
 Innovation Night Presentations
 15
 Winter Break Begins*
-
 Senior Arts Express Fest
-
 
 23
 Summer Recess Begins for Underclass Students*
 
-
 24
 Senior Dinner and Awards
-
-
 25
 Commenement
-
-
-
-
 For up-to-date detailed school calendar, please visit: www.proctoracademy.org/calendar
 Key:
 * Dormitories closed to all boarding students
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Proctor Academy
 P.O. Box 500
@@ -2304,3 +2266,4 @@ Andover, NH 03216-0500
 phone: (603) 735-6000
 fax: (603) 735-6300
 admission@proctoracademy.org www.proctoracademy.org
+
