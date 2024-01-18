@@ -1,2 +1,2 @@
-YOUR_API_KEY = "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"
+YOUR_API_KEY = "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"
 Qdrant_API_KEY = "sAxS_QKlIueJTNu8P4pmEs7xxe0gtdTiwEXNcj9su8iGuxM4k-Jl0A"
