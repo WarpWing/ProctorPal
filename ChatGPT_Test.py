@@ -12,7 +12,7 @@ messages = [ {"role": "system", "content": "You are designed to assist Proctor S
 while True: 
     message = input("User : ") 
     if message: 
-        messages.append( 
+        messages.append(
             {"role": "user", "content": message},
         ) 
         chat = client.chat.completions.create(model="gpt-3.5-turbo", messages=messages) 
